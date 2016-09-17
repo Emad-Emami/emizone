@@ -1,0 +1,69 @@
+doctype transitional
+html(xmlns='http://www.w3.org/1999/xhtml')
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    title Tab Login & Sign Up Forms
+    link(rel='stylesheet', type='text/css', href='stylesheets/font-awesome.min.css')
+    link(rel='stylesheet', type='text/css', href='stylesheets/style.css')
+    link(rel='stylesheet', type='text/css', href='stylesheets/login.css')
+    script(src='javascripts/jquery.2.1.3.min.js')
+    script(src='javascripts/script.js')
+  body.login
+    #wrapper
+      h1 Tab Login & Sign Up Forms
+      #container
+        section.tabs
+          input#tab-1.tab-selector-1(name='radio-set', checked='checked', type='radio')
+          span.tab-label-1(for='tab-1') ثبت نام
+          input#tab-2.tab-selector-2(name='radio-set', type='radio')
+          span.tab-label-2(for='tab-2') ورود
+          input#tab-3.tab-selector-3(name='radio-set', type='radio')
+          span.tab-label-3(for='tab-3') بازیابی رمز عبور
+          .clear-shadow
+          #content
+            .content-1.signup
+              p
+                a.media.fb(href='#') فیس بوک
+                a.media.gm(href='#') گوگــل                
+              form(action='/signup', autocomplete='on')
+                p
+                  label.uname(for='fullnamesignup') نام و نام خانوادگی
+                  input.field(name='fullnamesignup', required='required', placeholder='', type='text')
+                p
+                  label.youmail(for='emailsignup')  آدرس ایمیل
+                  input.field(name='emailsignup', required='required', placeholder='', type='email')
+                p
+                  label.youpasswd(for='passwordsignup') رمز عبور 
+                  input.field(name='passwordsignup', required='required', placeholder='', type='password')
+                p
+                  label.youpasswd(for='passwordsignup_confirm') تکرار رمز عبور
+                  input.field(name='passwordsignup_confirm', required='required', placeholder='', type='password')
+                p.signin.button
+                  input(required='required', type='checkbox')
+                  |  از قوانین سایت پیروی خواهم کرد.
+                  input(value='ثبت نام', type='submit')
+              .printArea
+            .content-2.login
+              p
+                a.media.fb(href='#') فیس بوک
+                a.media.gm(href='#') گوگــل
+              form(action='/login', autocomplete='on')
+                p
+                  label.uname(for='username')  آدرس ایمیل 
+                  input.field(name='username', required='required', placeholder='', type='text')
+                p
+                  label.youpasswd(for='password')  رمز عبور 
+                  input.field(name='password', required='required', placeholder='', type='password')
+                p.keeplogin
+                  input#loginkeeping(name='loginkeeping', value='loginkeeping', type='checkbox')
+                  |  مرا به خاطر بسپار
+                  input(value='Login', type='submit')
+              .printArea
+            .content-3.forget-password
+              form(action='/forgetpass', autocomplete='on')
+                p
+                  label.youmail(for='emailsignup')  آدرس ایمیل
+                  input.field(name='emailsignup', required='required', placeholder='', type='email')
+                p.signin.button
+                  input(value='دریافت رمز جدید', type='submit')
+              .printArea

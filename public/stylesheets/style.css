@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'IRANSans-Black';
+  src: url('fonts/IRANSans-Black.eot'); /* IE9 Compat Modes */
+  src: url('fonts/IRANSans-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/IRANSans-Black.woff') format('woff'), /* Super Modern Browsers */
+       url('fonts/IRANSans-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/IRANSans-Black.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'IRANSans-Bold';
+  src: url('fonts/IRANSans-Bold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/IRANSans-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/IRANSans-Bold.woff') format('woff'), /* Super Modern Browsers */
+       url('fonts/IRANSans-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/IRANSans-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'IRANSans-Expanded';
+  src: url('fonts/IRANSans-Expanded.eot'); /* IE9 Compat Modes */
+  src: url('fonts/IRANSans-Expanded.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/IRANSans-Expanded.woff') format('woff'), /* Super Modern Browsers */
+       url('fonts/IRANSans-Expanded.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/IRANSans-Expanded.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'IRANSans-Light-Expanded';
+  src: url('fonts/IRANSans-Light-Expanded.eot'); /* IE9 Compat Modes */
+  src: url('fonts/IRANSans-Light-Expanded.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/IRANSans-Light-Expanded.woff') format('woff'), /* Super Modern Browsers */
+       url('fonts/IRANSans-Light-Expanded.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/IRANSans-Light-Expanded.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'IRANSans-UltraLight';
+  src: url('fonts/IRANSans-UltraLight.eot'); /* IE9 Compat Modes */
+  src: url('fonts/IRANSans-UltraLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/IRANSans-UltraLight.woff') format('woff'), /* Super Modern Browsers */
+       url('fonts/IRANSans-UltraLight.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/IRANSans-UltraLight.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+body {
+  padding: 50px;
+  font: 14px "IRANSans-Expanded";
+  direction: rtl;
+}
+
+a {
+  color: #00B7FF;
+}
